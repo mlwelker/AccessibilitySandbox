@@ -3,8 +3,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image(decorative: "character")
-            .accessibilityHidden(true)
+        VStack {
+            Text("Your score is")
+            Text("1000")
+                .font(.title)
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Your score is 1000")
+//        .accessibilityElement(children: .combine)
     }
 }
 
