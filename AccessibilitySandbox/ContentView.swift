@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  AccessibilitySandbox
-//
-//  Created by Michael Welker on 2023-09-16.
-//
 
 import SwiftUI
 
